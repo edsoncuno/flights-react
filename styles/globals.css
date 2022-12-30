@@ -1,0 +1,20 @@
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  /*es importante que el background este antes de su configuracion adicional*/
+  background: url("./../img//mountains.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
